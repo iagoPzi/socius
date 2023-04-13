@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.innerContainer {
+    @apply w-full max-w-[1366px] mx-auto
+}
+
+.input{
+    @apply p-2 rounded w-full
+}
+
+.button{
+    @apply p-2 rounded bg-slate-500 text-white hover:bg-slate-600 transition-colors
+
+}
